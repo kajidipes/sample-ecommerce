@@ -1,7 +1,7 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
 import DisplayLaptop from '../DisplayLaptop'
 import { Col, Row } from "react-bootstrap";
+import {Link } from "react-router-dom";
 
 
 function Laptops() {
@@ -36,11 +36,11 @@ function Laptops() {
             <div className=" mt-5 mb-2">
                 <h4 className="float-center">Laptop</h4>
             </div>
-            <Container fluid> 
-                <Row>
-                    {laptopList}
-                </Row>
-            </Container>
+            <Row>
+                {/* <Link to ='/' > */}
+                {laptopList}
+                {/* </Link> */}
+            </Row>    
         </React.Fragment>
     )
 }

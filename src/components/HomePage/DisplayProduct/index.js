@@ -1,11 +1,12 @@
 import React from 'react'
 import Laptops from './Laptops'
+import { DisplayWrapper } from './style'
 
 function DisplayProduct() {
     return (
-        <div>
+        <DisplayWrapper>
             <Laptops/>
-        </div>
+        </DisplayWrapper>
     )
 }
 

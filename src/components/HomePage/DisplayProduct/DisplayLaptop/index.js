@@ -1,15 +1,13 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
-import {  MDBView } from "mdbreact";
+//import {  MDBView } from "mdbreact";
 
 function DisplayLaptop({laptop}) {
 
     return (
-        <div className=" mb-2">
-             <Card>
-                <MDBView hover zoom>
-                    <Card.Img variant="top" src={laptop.image} />
-                </MDBView>
+        <div className=" mb-2 ">
+             <Card className = "zoom">
+                <Card.Img variant="top" src={laptop.image} />
                 <Card.Body>
                 <Card.Title>{laptop.title}</Card.Title>
                 <Card.Text>
