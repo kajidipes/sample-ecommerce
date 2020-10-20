@@ -18,7 +18,7 @@ function ProductDetailPage() {
 
                 <p> Quantity 
                      
-                    <button onClick={()=> (count > 1) ? setCount(count-1) : count}> - </button>
+                    <button disabled= {count<=1} onClick={()=> (count > 1) ? setCount(count-1) : count}> - </button>
                     {count}
                     <button onClick={()=> setCount(count+1)}> + </button>
                 </p>

@@ -35,7 +35,7 @@ export const ProductDetailWrapper = styled.div`
     button {
         background-color: #e7e7e7;
         border: none;
-        color: white;
+        color: #D0D0D0;
         padding: 6px 16px;
         text-align: center;
         text-decoration: none;
@@ -43,6 +43,16 @@ export const ProductDetailWrapper = styled.div`
         font-size: 16px;
         margin: 8px 10px;
         cursor: pointer;
+      }
+
+      button:hover{
+        background-color: 	#D0D0D0;
+        color: white;
+      }
+
+      .disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
       }
       
 `;
