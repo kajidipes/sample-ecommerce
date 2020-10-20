@@ -5,16 +5,19 @@ import Footer from './components/Footer';
 import ProductDetailPage from './components/ProductDetailPage';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
+
 function App() {
   return (
+    <Router>
     <div className="App">
-    {/* <Router>
-      <Route path = '../components/ProductDetailPage' component= {ProductDetailPage}/>   */}
-      <HomePage/>
-      <ProductDetailPage />
-      <Footer/>
-    {/* </Router> */}
+      <Route path = '/productdetail' exact component= {ProductDetailPage}/>  
+      <Route path = '/' exact component= {HomePage}/>  
+      <Route path = '/' component= {Footer}/>  
+      {/* <HomePage/>
+       <ProductDetailPage /> 
+      <Footer/> */}
     </div>
+    </Router>
   );
 }
 

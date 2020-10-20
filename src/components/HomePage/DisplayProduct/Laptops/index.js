@@ -36,11 +36,11 @@ function Laptops() {
             <div className=" mt-5 mb-2">
                 <h4 className="float-center">Laptop</h4>
             </div>
-            <Row>
-                {/* <Link to ='/' > */}
-                {laptopList}
-                {/* </Link> */}
-            </Row>    
+            <Link to ='/productdetail' > 
+            <Row>  
+                {laptopList} 
+            </Row>
+            </Link>    
         </React.Fragment>
     )
 }
