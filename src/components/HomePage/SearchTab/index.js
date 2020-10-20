@@ -7,7 +7,7 @@ const SearchTab = () => {
     // <div className="container">
       <form>
       <input type = "text" name="search" placeholder="search" />
-      <button>Search </button>
+      <button><FaSistrix/> </button>
       </form>
     // </div>
       // <Input
