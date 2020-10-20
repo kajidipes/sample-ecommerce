@@ -1,17 +1,23 @@
 import React from "react";
-import { InputAdornment, Input } from '@material-ui/core';
+//import { InputAdornment, Input } from '@material-ui/core';
 import { FaSistrix } from "react-icons/fa";
 
 const SearchTab = () => {
   return (
-      <Input
-        id="input-with-icon-adornment"
-        startAdornment={
-          <InputAdornment position="start">
-            <FaSistrix /> 
-          </InputAdornment>
-        }
-      />
+    // <div className="container">
+      <form>
+      <input type = "text" name="search" placeholder="search" />
+      <button>Search </button>
+      </form>
+    // </div>
+      // <Input
+      //   id="input-with-icon-adornment"
+      //   startAdornment={
+      //     <InputAdornment position="start">
+      //       <FaSistrix /> 
+      //     </InputAdornment>
+      //   }
+      // />
     );
 }
 
