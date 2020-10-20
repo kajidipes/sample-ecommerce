@@ -1,13 +1,8 @@
 import React, {useState} from 'react'
-import {ProductDetailWrapper} from './style'
+import { ProductDetailWrapper } from './style'
 
-function ProductDetailPage() {
+function ProductDetail() {
     const [count, setCount] = useState(1)
-
-    // const handleClick= ()=> {
-    //     return (count > 1) ? setCount(count-1) : null
-    // }
-
     return (
         <ProductDetailWrapper>
             <h2>Product Detail</h2>
@@ -27,4 +22,4 @@ function ProductDetailPage() {
     )
 }
 
-export default ProductDetailPage
+export default ProductDetail

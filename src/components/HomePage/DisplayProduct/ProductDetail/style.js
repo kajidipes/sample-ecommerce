@@ -33,7 +33,7 @@ export const ProductDetailWrapper = styled.div`
     // }
 
     button {
-        background-color: #e7e7e7;
+        background-color: 	#F8F8F8;
         border: none;
         color: #D0D0D0;
         padding: 6px 16px;
@@ -51,7 +51,7 @@ export const ProductDetailWrapper = styled.div`
         color: white;
       }
 
-      .disabled {
+      button:disabled {
         opacity: 0.6;
         cursor: not-allowed;
       }
