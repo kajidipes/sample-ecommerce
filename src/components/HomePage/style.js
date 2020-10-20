@@ -1,13 +1,15 @@
 import styled from "styled-components";
 
 export const HomeWrapper = styled.div`
-    //  .container{
-    //     position: relative;
-    //     border: 2px solid #f5f5f5;
-    //     padding: 12px 20px 12px 18px;
-    //     overflow: hidden;
-        
-    //  }
+    form {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        width: 60%;
+        // margin-left: 60px;
+        // margin-right: 60px;
+    }
+  
     input {
         width: 100%;
         box-sizing: border-box;
@@ -23,6 +25,8 @@ export const HomeWrapper = styled.div`
     button {
         // background-image: '../../../image/search.jpg';
         padding: 12px 20px 12px 18px;
+        background : #f57224;
+        border: 2px solid #f57224;
         outline: none;
     }
 `;
