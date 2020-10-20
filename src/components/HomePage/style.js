@@ -29,4 +29,8 @@ export const HomeWrapper = styled.div`
         border: 2px solid #f57224;
         outline: none;
     }
+
+    .fa{
+        color: #FFF;
+    }
 `;
