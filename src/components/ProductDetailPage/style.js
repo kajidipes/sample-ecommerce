@@ -43,6 +43,7 @@ export const ProductDetailWrapper = styled.div`
         font-size: 16px;
         margin: 8px 10px;
         cursor: pointer;
+        outline: none;
       }
 
       button:hover{
